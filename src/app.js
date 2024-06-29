@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-  let pronoun = ["the", "our"];
-  let adj = ["tiny", "large"];
-  let noun = ["drummer", "basset hound"];
+  let pronoun = ["the", "our", "it", "coveted"];
+  let adj = ["tiny", "large", "medium", "bad"];
+  let noun = ["drummer", "basset hound", "ghoul", "wizard"];
   let domain = [".com", ".gov", ".net"];
 
   function genDom(pronoun, adj, noun, domain) {
